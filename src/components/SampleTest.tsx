@@ -1,11 +1,11 @@
 import React from 'react'
 
-interface {
+interface Props{
 name: string
 
 }
 
-export const SampleTest = ({name}) => {
+export const SampleTest:  React.FC<Props> = ({name}) => {
   return (
     <div>SampleTest {name}</div>
   )
