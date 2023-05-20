@@ -1,7 +1,12 @@
 import React from 'react'
 
-export const SampleTest = () => {
+interface {
+name: string
+
+}
+
+export const SampleTest = ({name}) => {
   return (
-    <div>SampleTest</div>
+    <div>SampleTest {name}</div>
   )
 }
